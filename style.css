@@ -50,7 +50,7 @@ body{
     background-color: pink;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
     body{
     background-image: url(./360_F_525153525_3tVDBbD5fbMu6LMZbheSBB5pH1YbXJjW.jpg);
     background-color: pink;
