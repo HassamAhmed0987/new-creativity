@@ -42,25 +42,28 @@ a{
     transition-duration: 0.5s;
     background-color: pink;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.btn{
-    border: 5px solid rgba(255, 0, 0, 0.774);
-    padding:10px 30px;
-    border-radius: 30px;
-    margin: 10px 10px;
+@media (max-width: 400px) {
+    body{
+    background-image: url(./360_F_525153525_3tVDBbD5fbMu6LMZbheSBB5pH1YbXJjW.jpg);
+    background-color: pink;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Gloria Hallelujah", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .gif-img{
+        width: 200px;
+    }
+    h1{
+    font-size: 25px;
+    }
+    p{
+    font-size: small;
+    }
+    .btn{
+        background-color: pink;
+    }
+    
 }
