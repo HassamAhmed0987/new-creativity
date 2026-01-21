@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(./360_F_525153525_3tVDBbD5fbMu6LMZbheSBB5pH1YbXJjW.jpg);
+            background-color: pink;
+            width: 100vw;
+            font-family: "Gloria Hallelujah", cursive;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            border: 8px solid #8C1224;
+            border-radius: 30px;
+            text-align: center;
+        }
+        p{
+            font-size: 30px;
+            color: #8c1224e5;
+            text-decoration: underline;
+        }
+        .sec{
+            width: 100%;
+            margin: 20px 0;
+            text-align: center;
+            border-top: 5px dashed #8C1224;
+        }
+        h1{
+            font-size: 50px;
+            color: #8C1224;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .btn{
+            border: 5px solid #8C1224;
+            padding:10px 30px;
+            border-radius: 30px;
+            margin: 10px 10px;
+        }
+        .btn:hover{
+            transition: all;
+            transition-duration: 0.5s;        
+            background-color: pink;
+        }
+        img{
+            animation: translate 1s  1;
+        }
+        @keyframes translate {
+            0%{
+                transform: scale(0);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
+        @media (max-width: 400px) {
+
+            body{
+                background-image: url(./360_F_525153525_3tVDBbD5fbMu6LMZbheSBB5pH1YbXJjW.jpg);
+                background-color: pink;
+                width: 100vw;
+                font-family: "Gloria Hallelujah", cursive;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .container{
+            border: 8px solid #8C1224;
+            width: 100%;
+            border-radius: 30px;
+            text-align: center;
+            }
+            img{
+                width: 100%;
+            }
+            h1{
+                font-size: 25px;
+            }
+            p{
+                font-size: large;
+            }
+            .btn{
+            border: 5px solid #8C1224;
+            padding:5px 15px;
+            border-radius: 30px;
+            margin: 10px 10px;
+            }
+
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="./secondgift.png" alt="">
+        <p>your favorite flowers</p>
+    </div>
+    <div class="sec">
+        <h1>Virtual Flowers</h1>
+        <a class="btn" href="./gifts.html">RETURN</a>
+
+    </div>
+    
+</body>
+</html>

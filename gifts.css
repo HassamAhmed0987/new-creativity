@@ -76,5 +76,11 @@ body{
     grid-template-columns: repeat(2, 100px);
     grid-template-rows: repeat(2, 100px);
     gap: 20px;
-}
+    }
+    .img-container{
+    background-color: white;
+    border: 5px solid red;
+    border-radius: 20px;
+    padding: 10px;
+    }
 }
