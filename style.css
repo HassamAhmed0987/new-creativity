@@ -39,6 +39,7 @@ body{
 .btns{
     margin: 30px 0;
     display: flex;
+    justify-content: center;
 }
 .btn{
     border: 5px solid rgba(255, 0, 0, 0.774);
@@ -70,19 +71,20 @@ body{
     font-size: 50px;
     }
     p{
-    font-size: small;
+    font-size: large;
     }
     .container{
-        width: 100%;
+    width: 100%;
     text-align: center;
     }
     .btns{
     margin: 30px 0;
     display: flex;
+    justify-content: center;
     }
     .btn{
     background-color: pink;
-    border: 5px solid rgba(255, 0, 0, 0.774);
+    border: 2px solid rgba(255, 0, 0, 0.774);
     padding:5px 15px;
     border-radius: 30px;
     margin: 10px 10px;
